@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <PackageId>TimeOffsetting</PackageId>
+    <Authors>yueyinqiu5990</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Copyright>Copyright © 2021 yueyinqiu5990. All rights reserved.</Copyright>
+    <Description>Make it easier to have time offset. Works with any timespan, instead of just with those in whole minutes.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/yueyinqiu/TimeOffsetting/wiki</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/yueyinqiu/TimeOffsetting.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>time;datetime;timeoffset</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>obj\Release\net5.0\TimeOffsetting.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
